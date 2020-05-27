@@ -21,13 +21,3 @@
 get_template_part('skin/template/header/template', 'header_top');
 get_template_part('skin/template/header/template', 'slider');
 ?>
-<?php if ( is_front_page() && !is_home() ) {?>
-<section id="hompagecontent">
-	<div>
-		<img source="<?php echo get_theme_file_uri( 'images/backgrounds/cryoquebec_logo.png' ); ?>"/>
-		<?php 
-		get_template_part('skin/template/home/template', 'boxes');
-		?>
-	</div>
-</section>
-<?php }?>
