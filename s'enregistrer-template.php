@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: SignUp
+* Template Name: S'enregistrer
 */
 ?>
 

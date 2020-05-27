@@ -38,11 +38,11 @@
                 ><i class="fa fa-facebook"></i
               ></a>
             </li>
-            <li>
+            <!-- <li>
               <a target="_blank" class="faicon-twitter" href="#"
                 ><i class="fa fa-twitter"></i
               ></a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </footer>
