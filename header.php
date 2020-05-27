@@ -25,7 +25,6 @@ get_template_part('skin/template/header/template', 'slider');
 <section id="hompagecontent">
 	<div>
 		<img source="<?php echo get_theme_file_uri( 'images/backgrounds/cryoquebec_logo.png' ); ?>"/>
-		>
 		<?php 
 		get_template_part('skin/template/home/template', 'boxes');
 		?>
