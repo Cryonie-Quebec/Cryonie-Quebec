@@ -16,7 +16,9 @@
 </head>
 <body <?php body_class(); ?>>
 
-<img id="cryoquebec_title" src="<?php echo get_theme_file_uri( 'images/backgrounds/cryoquebec_name.png' ); ?>"/>
+<a href="https://cryoquebec.org/">
+	<img id="cryoquebec_title" src="<?php echo get_theme_file_uri( 'images/backgrounds/cryoquebec_name.png' ); ?>"/>
+</a>
 <?php 
 get_template_part('skin/template/header/template', 'header_top');
 get_template_part('skin/template/header/template', 'slider');
