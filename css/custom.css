@@ -1,0 +1,15 @@
+@media (max-width:992px) { 
+    .main-navigations .container {
+        width: 100%;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        margin-top: 56px;
+    } 
+}
+
+@media (max-width:992px) { 
+    #cryoquebec_title {
+        transform: translateX(-50%);
+        margin-left: 50% !important;
+    }
+}

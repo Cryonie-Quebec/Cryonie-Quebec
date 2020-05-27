@@ -6,26 +6,6 @@
 
 <?php get_header(); ?>
 
-
-<?php
-  // User IP:
-  /*
-  if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) && $_SERVER['HTTP_X_FORWARTDED_FOR'] != '') {
-    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-  } else {
-    $ip = $_SERVER['REMOTE_ADDR'];
-  }
-  */
-
-  $argsCity = array(  
-    'post_type' => 'city',
-    'post_status' => 'publish',
-    'posts_per_page' => '-1',
-  );
-
-  $queryCity = new WP_Query( $argsCity );
-?>
-
 <link
       href="layout/styles/layout.css"
       rel="stylesheet"

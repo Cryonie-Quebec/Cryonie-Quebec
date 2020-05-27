@@ -21,6 +21,7 @@
 	wp_enqueue_style( 'jquery.min.js', get_template_directory_uri() . '/layout/scripts/jquery.min.js' );
 	wp_enqueue_style( 'jquery.mobilemenu.js', get_template_directory_uri() . '/layout/scripts/jquery.mobilemenu.js' );
 
+	wp_enqueue_style( 'custom', get_template_directory_uri() .'/css/custom.css');
  }
  add_action( 'wp_enqueue_scripts', 'biztt_style_js' );
 ?>

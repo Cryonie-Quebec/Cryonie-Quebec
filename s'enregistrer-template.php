@@ -1,31 +1,10 @@
 <?php
 /**
-* Template Name: Accueil
+* Template Name: SignUp
 */
 ?>
 
 <?php get_header(); ?>
-
-
-<?php
-  // User IP:
-  /*
-  if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) && $_SERVER['HTTP_X_FORWARTDED_FOR'] != '') {
-    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-  } else {
-    $ip = $_SERVER['REMOTE_ADDR'];
-  }
-  */
-
-  $argsCity = array(  
-    'post_type' => 'city',
-    'post_status' => 'publish',
-    'posts_per_page' => '-1',
-  );
-
-  $queryCity = new WP_Query( $argsCity );
-?>
-
 
 
 <title>CryoQuébec - S'enregistrer</title>
@@ -35,21 +14,6 @@
 <link href="style.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
-
-<!-- ################################################################################################ -->
-<div class="wrapper row2">
-  <nav id="mainav" class="hoc clear"> 
-    <ul class="clear">
-      <li class="active"><a href="index.html">Accueil</a></li>
-      <li><a href="FAQ.html">FAQ</a></li>
-      <!--<li><a href="#">Bibliothèque</a></li>-->
-      <li><a href="Ressources.html">Ressources</a></li>
-      <li><a href="S'enregistrer.html">S'enregistrer</a></li>
-      <li><a href="Contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</div>
-<!-- ################################################################################################ -->
 <div class="wrapper row3">
   <section class="hoc container clear"> 
     <div class="sectiontitle">
