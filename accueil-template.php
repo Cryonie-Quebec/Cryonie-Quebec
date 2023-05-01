@@ -104,7 +104,7 @@
                 foire aux questions.
               </p>
               <footer>
-                <a class="btn" href="FAQ.html">Continuez de lire &raquo;</a>
+                <a class="btn" href="faq">Continuez de lire &raquo;</a>
               </footer>
             </article>
           </li>
@@ -117,7 +117,7 @@
                 plus sur la cryonie.
               </p>
               <footer>
-                <a class="btn" href="Ressources.html"
+                <a class="btn" href="ressources-externes"
                   >Continuez de lire &raquo;</a
                 >
               </footer>
@@ -132,7 +132,7 @@
                 plus proches sont Alcor, le Cryonics Institute et OregonCryo.
               </p>
               <footer>
-                <a class="btn" href="S'enregistrer.html"
+                <a class="btn" href="senregistrer"
                   >Continuez de lire &raquo;</a
                 >
               </footer>
